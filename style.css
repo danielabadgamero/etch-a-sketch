@@ -1,5 +1,19 @@
-html {
+body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.hover {
+    background-color: black;
+}
+
+.input {
+    height: 30px;
+    width: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
